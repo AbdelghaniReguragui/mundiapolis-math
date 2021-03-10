@@ -2,7 +2,9 @@ alexa@ubuntu-xenial:0x00-linear_algebra$ cat 6-main.py
 #!/usr/bin/env python3
 
 def cat_arrays(arr1, arr2):
-    return arr1 + arr2
+    arr = []
+    arr = arr1 + arr2
+    return arr
 
 cat_arrays = __import__('6-howdy_partner').cat_arrays
 
