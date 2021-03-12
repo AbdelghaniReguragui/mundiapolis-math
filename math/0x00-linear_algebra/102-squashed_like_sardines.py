@@ -13,6 +13,7 @@ def matrix_shape(matrix):
 
 
 def concat_recursive(mat1, mat2, axe):
+    '''ddddddddddddddddddddaaaaaaaaaaaaaaaaaadddddd'''
     result = []
     if axe == 0:
         result = mat1 + mat2
@@ -23,6 +24,7 @@ def concat_recursive(mat1, mat2, axe):
 
 
 def cat_matrices(mat1, mat2, axis=0):
+    '''ttttttttttttttttt'''
     if len(matrix_shape(mat1)) > axis and len(matrix_shape(mat2)) > axis:
         return concat_recursive(mat1, mat2, axis)
     else:
