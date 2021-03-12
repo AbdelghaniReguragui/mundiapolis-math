@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 def matrix_shape(matrix):
+  """
+    Needs a matrix as input
+    Returns the shape as a list of integers
+    """
   if type(matrix[0]) ins not list:
         return [len(matrix)]
     else:
