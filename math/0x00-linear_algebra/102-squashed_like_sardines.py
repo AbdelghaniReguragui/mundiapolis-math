@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
-import numpy as np
-import time
+
 
 def matrix_shape(matrix):
     if type(matrix[0]) is not list:
