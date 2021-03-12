@@ -3,9 +3,12 @@
 
 
 def matrix_shape(matrix):
+    '''dddddddddddddddddddddddddd'''
     if type(matrix[0]) is not list:
+        '''fffff'''
         return [len(matrix)]
     else:
+        '''aaaaaaaaaaaaaaaaa'''
         return [len(matrix)] + matrix_shape(matrix[0])
 
 
