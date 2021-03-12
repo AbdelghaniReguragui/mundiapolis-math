@@ -10,8 +10,7 @@ def matrix_shape(matrix):
 def concat_recursive(mat1, mat2, axe):
     result = []
     if axe == 0:
-        result = mat1 + mat2
-        return result
+        return mat1 + mat2
     for i in range(len(mat1)):
         result.append(concat_recursive(mat1[i], mat2[i], axe - 1))
     return result
