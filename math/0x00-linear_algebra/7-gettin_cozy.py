@@ -7,7 +7,7 @@ def cat_matrices2D(mat1, mat2, axis=0):
         result = tmp1 + tmp2
         return result
     elif(len(mat1) == len(mat2)) and axis == 1:
-        result = [mat1[x] + mat2[x] for x in range(len(mat1))]
+        result = [mat1[x] + mat2[x]for x in range(len(mat1))]
         return result
     else:
         return None
