@@ -12,5 +12,5 @@ def mat_mul(mat1, mat2):
                 tmp.append(n)
             result.append(tmp)
         return result
-    else :
+    else:
         return None
