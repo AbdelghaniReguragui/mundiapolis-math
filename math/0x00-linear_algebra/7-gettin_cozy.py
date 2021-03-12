@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-def cat_matrices2D(mat1,mat2,axis=0):
+def cat_matrices2D(mat1, mat2, axis=0):
     if (len(mat1[0]) == len(mat2[0])) and axis == 0:
         tmp1 = [x[:]for x in mat1]
         tmp2 = [x[:]for x in mat2]
