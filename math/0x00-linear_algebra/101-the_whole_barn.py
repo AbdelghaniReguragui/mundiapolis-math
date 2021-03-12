@@ -1,4 +1,3 @@
-alexa@ubuntu-xenial:0x00-linear_algebra$ cat 101-main.py
 #!/usr/bin/env python3
 
 def matrix_shape(matrix):
