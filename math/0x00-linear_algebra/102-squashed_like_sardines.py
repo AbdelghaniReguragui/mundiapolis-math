@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
-
+import numpy as np
+import time
 
 def matrix_shape(matrix):
     if type(matrix[0]) is not list:
-        '''fffff'''
         return [len(matrix)]
     else:
         return [len(matrix)] + matrix_shape(matrix[0])
@@ -25,5 +25,3 @@ def cat_matrices(mat1, mat2, axis=0):
         return concat_recursive(mat1, mat2, axis)
     else:
         return None
-
-
