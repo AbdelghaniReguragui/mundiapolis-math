@@ -2,5 +2,4 @@
 '''aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'''
 def np_shape(matrix):
     '''bbbbbbbbbbbbbbbbbbbbb'''
-    tmp = matrix.shape
-    return tmp
+    return matrix.shape
