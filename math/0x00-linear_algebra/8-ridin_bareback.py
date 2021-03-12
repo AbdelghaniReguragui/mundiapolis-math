@@ -11,7 +11,6 @@ def mat_mul(mat1, mat2):
                     n += mat1[i][k] * mat2[k][j]
                 tmp.append(n)
             result.append(tmp)
-        for x in result:
-            return result
+        return result
     else :
         return None
