@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
 
 def np_shape(matrix):
-        return matrix.shape
+        tmp = []
+        tmp = matrix.shape
+        return tmp
