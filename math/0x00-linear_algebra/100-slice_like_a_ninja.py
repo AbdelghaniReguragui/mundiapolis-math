@@ -7,7 +7,7 @@ def np_slice(matrix, axes={}):
     maxx = max(axes)
     for i in range(maxx + 1):
         if i in axes.keys():
-            sliced.append(slice(*axes.get(i)))
+            result.append(slice(*axes.get(i)))
         else:
             result.append(slice(None, None, None))
     return matrix[tuple(result)]
