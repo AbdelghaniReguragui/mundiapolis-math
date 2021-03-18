@@ -3,6 +3,9 @@
 dsfa fdsad abjn a  bhd iywg ighwjq mka 0osqn kerl khe pjad hujfee oiewqn hwrekqjn eqwhijleq
 """
 def matrix_shape(matrix):
+    """
+    ga idwuq hkrqj lskjcs oijqwn qpwkoem sjva jgqw khure poytmn ,.mdsn kq   hjb askjdas kwjqe rlkhren qhkeb xkr
+    """
     if type(matrix[0]) is not list:
         return [len(matrix)]
     else:
